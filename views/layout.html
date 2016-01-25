@@ -1,0 +1,25 @@
+<HTML>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<head>
+		<title>Museum of Rad</title>
+	</head>
+	<body id="body">
+		<div id="wrap">
+			<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+  				<div class="navbar-header"><a class="navbar-brand" href="#">Museum of Rad</a></div>
+			    <ul class="nav navbar-nav">
+			    <li><a href="/"> Home </a></li>
+			    <li><a href="/game">Ball shooter</a></li>
+			    <li><a href="/ogame">Object Oriented Ball shooter</a></li>
+			    </ul>
+			  </div>
+			</nav>
+
+			{% block content %}{% endblock %}
+
+		</div>
+		 {% block scripts %}{% endblock %}
+	</body>
+</HTML>

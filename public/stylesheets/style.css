@@ -1,0 +1,41 @@
+body {
+width: 100%;
+height: 100%;
+margin: 0px;
+border: 0;
+overflow: hidden; /*  Disable scrollbars */
+display: block;  /* No floating content on sides */
+padding-top: 50px;
+background-image:url("hexellence.png");
+}
+
+.canvas{
+	shape-rendering: crispEdges
+}
+
+#main {
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color: #DDD;
+}
+
+body.noscroll {
+    position: fixed; 
+    overflow-y: scroll;
+    width: 100%;
+}
+
+#red {
+	width:100%;
+	height:50px;
+	background-color:#F00;
+}
+
+.page-header{
+	margin-left: 3%;
+}
+#body-content{
+	margin-left:3%;
+	width:75%;
+}
