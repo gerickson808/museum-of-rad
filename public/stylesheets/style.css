@@ -3,12 +3,42 @@ width: 100%;
 height: 100%;
 margin: 0px;
 border: 0;
-overflow: hidden; /*  Disable scrollbars */
-display: block;  /* No floating content on sides */
+overflow: hidden; /*  Disable scrollbars */ 
 padding-top: 50px;
 background-image:url("hexellence.png");
 }
 
+.body-block {
+	margin:10px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-bottom:2%;
+	text-align:center;
+	display:block;
+	position:static;
+	padding:10px;
+	border-radius:10px; 
+	border:5px solid black;
+}
+
+.outside {
+	margin-top:10px;
+	margin-left:2%;
+	margin-right:2%;
+	display:block;
+	position:static;
+	padding:10px;
+	border-radius:10px; 
+	border:2px solid black;
+}
+
+/*.body-block .block-lead {
+	color:#00D644;
+}
+.body-block .block-next {
+	color:#00A311;
+}
+*/
 .canvas{
 	shape-rendering: crispEdges
 }
